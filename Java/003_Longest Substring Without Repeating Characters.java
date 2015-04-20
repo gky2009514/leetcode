@@ -2,15 +2,6 @@ package algorithm;
 
 import java.util.*;
 
-class ListNode {
-	int val;
-	ListNode next;
-	ListNode(int x) {
-		val = x;
-		next = null;
-	}
-}
-
 class Solution {
 	public int lengthOfLongestSubstring(String s) {
 		HashMap<Character, Byte> hm = new HashMap<Character, Byte>();

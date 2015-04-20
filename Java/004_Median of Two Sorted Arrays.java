@@ -1,14 +1,5 @@
 package algorithm;
 
-class ListNode {
-	int val;
-	ListNode next;
-	ListNode(int x) {
-		val = x;
-		next = null;
-	}
-}
-
 class Solution {
 	private int N, M;
 	private int[] A, B;
