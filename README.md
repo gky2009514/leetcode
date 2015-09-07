@@ -1,1 +1,2 @@
-# leetcode 目前全部181题的代码，预计完成C++、Java、Python和JavaScript版本
+# leetcode OJ
+Algorithms所有题目C++版本，部分题目Java和Python版本；Database部分题目MySQL版本
