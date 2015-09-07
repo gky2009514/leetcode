@@ -1,0 +1,1 @@
+awk '{for(i=1; i<=NF; i++)mat[NR, i]=$i} NF>m{m=NF} END{for(i=1; i<=m; i++){line=mat[1,i];for(j=2; j<=NR; j++){line=line" "mat[j,i]}print line}}'
